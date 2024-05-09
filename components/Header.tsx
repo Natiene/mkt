@@ -16,12 +16,34 @@ const Header: React.FC = () => {
             <ul className="flex space-x-4">
               <li>
                 <Link href="/products">
-                  <div className="text-white cursor-pointer">Products</div>
+                  <div className="text-white cursor-pointer">Produtos</div>
+                </Link>
+              </li>
+              <li>
+                <Link href="/electronics">
+                  <div className="text-white cursor-pointer">Eletrônicos</div>
+                </Link>
+              </li>
+              <li></li>
+              <li>
+                <Link href="/female">
+                  <div className="text-white cursor-pointer">Feminino</div>
+                </Link>
+              </li>
+              <li>
+                <Link href="/jewelery">
+                  <div className="text-white cursor-pointer">Jóias</div>
+                </Link>
+              </li>
+              <li></li>
+              <li>
+                <Link href="male">
+                  <div className="text-white cursor-pointer">Masculino</div>
                 </Link>
               </li>
               <li>
                 <Link href="/cart">
-                  <div className="text-white cursor-pointer">Cart</div>
+                  <div className="text-white cursor-pointer">Carrinho</div>
                 </Link>
               </li>
               <li>
